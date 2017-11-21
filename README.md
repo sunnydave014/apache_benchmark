@@ -1,6 +1,10 @@
 <h1 align="center"> Node Apache Benchmark</h1>
 <h4 align="center">This application is built on Node js used to load test concurrent connection on a single application server by using a tool called <a href="https://httpd.apache.org/docs/2.4/programs/ab.html" target="_blank">Apache Benchmark</a></h4>
 
+## Key Features
+
+* 
+
 ## How To Use
 
 To clone and run this application, you'll need below steps from your command line :-
@@ -21,4 +25,4 @@ $ yarn run build or npm run build
 # Run the app
 $ yarn run serve or npm run serve
 ```
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Note: This ab file in the project is the file of mac os, if you are running this application on linux or windows machine then you need to replace this ab file with your respective executable depending on your os.

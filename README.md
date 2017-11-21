@@ -3,9 +3,7 @@
 
 ## How To Use
 
-To clone and run this application, you'll need below steps
-
-From your command line:
+To clone and run this application, you'll need below steps from your command line :-
 
 ```bash
 # Clone this repository

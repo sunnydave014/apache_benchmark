@@ -1,0 +1,35 @@
+{
+  "name": "apache_benchmark",
+  "version": "1.0.0",
+  "description": "This is node application which is used to load test a single application server using apache benchmark.",
+  "repositorty": "sunnydave014/apache_benchmark/package.json",
+  "author" : {
+ 	"name"  : "Suraj Patel",
+	"email" : "surajpatel.77777@gmail.com"
+  },
+  "keywords" : [
+  	"npm",
+	"yarn",
+	"apache benchmark",
+	"load test",
+	"node js",
+	"server",
+	"client"
+  ],
+  "main": "dist/index.js",
+  "dependencies": {
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "nodemon": "1.12.1"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-preset-env": "1.6.1",
+  },
+  "scripts" : {
+    "build" : "babel -w src --out-dir dist/ --copy-files",
+    "serve" : "yarn run build & nodemon --watch node ./dist/index.js"
+  },
+  "author": "Suraj Patel",
+  "license": "ISC"
+}
